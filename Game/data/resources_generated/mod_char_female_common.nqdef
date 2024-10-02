@@ -1,6 +1,6 @@
 {
   "elements": {
-    "Mod_Char_Female_Common": {
+    "Mod_Char_Female": {
       "events": [
         {
           "push": [
@@ -49,7 +49,7 @@
       "order": 0,
       "node": "resources_generated/gameplay/characters/default_001/female/nodes/chara_female_001.node"
     },
-    "Mod_Char_Male_Common": {
+    "Mod_Char_Male": {
       "events": [
         {
           "push": [
@@ -100,43 +100,48 @@
     },
     "Mod_Char_Female_AlphaTeam": {
       "icon": "resources_generated/gameplay/characters/alpha-team_001/female/icons/chara_female-alpha-team.png",
-      "inherit": "Mod_Char_Female_Common",
+      "inherit": "Mod_Char_Female",
       "node": "resources_generated/gameplay/characters/alpha-team_001/female/nodes/chara_female_alpha-team_001.node"
     },
     "Mod_Char_Female_Arkship": {
       "icon": "resources_generated/gameplay/characters/arkship_001/female/icons/chara_female_arkship_passenger.png",
-      "inherit": "Mod_Char_Female_Common",
+      "inherit": "Mod_Char_Female",
       "node": "resources_generated/gameplay/characters/arkship_001/female/nodes/chara_female_arkship_001.node"
     },
     "Mod_Char_Female_Military": {
       "icon": "resources_generated/gameplay/characters/military_001/female/icons/chara_female-military.png",
-      "inherit": "Mod_Char_Female_Common",
+      "inherit": "Mod_Char_Female",
       "node": "resources_generated/gameplay/characters/military_001/female/nodes/chara_female_military_001.node"
     },
     "Mod_Char_Female_EarthLegacy": {
       "icon": "resources_generated/gameplay/characters/earth-legacy_001/female/icons/chara_female_earth_legacy.png",
-      "inherit": "Mod_Char_Female_Common",
+      "inherit": "Mod_Char_Female",
       "node": "resources_generated/gameplay/characters/earth-legacy_001/female/nodes/chara_female_earth-legacy_001.node"
     },
     "Mod_Char_Male_AlphaTeam": {
       "icon": "resources_generated/gameplay/characters/alpha-team_001/male/icons/chara_male-alpha-team.png",
-      "inherit": "Mod_Char_Male_Common",
+      "inherit": "Mod_Char_Male",
       "node": "resources_generated/gameplay/characters/alpha-team_001/male/nodes/chara_male_alpha-team_001.node"
     },
     "Mod_Char_Male_Arkship": {
       "icon": "resources_generated/gameplay/characters/arkship_001/male/icons/chara_male_arkship_passenger.png",
-      "inherit": "Mod_Char_Male_Common",
+      "inherit": "Mod_Char_Male",
       "node": "resources_generated/gameplay/characters/arkship_001/male/nodes/chara_male_arkship_001.node"
     },
     "Mod_Char_Male_Military": {
       "icon": "resources_generated/gameplay/characters/military_001/male/icons/chara_male-military.png",
-      "inherit": "Mod_Char_Male_Common",
+      "inherit": "Mod_Char_Male",
       "node": "resources_generated/gameplay/characters/military_001/male/nodes/chara_male_military_001.node"
     },
     "Mod_Char_Male_EarthLegacy": {
       "icon": "resources_generated/gameplay/characters/earth-legacy_001/male/icons/chara_male_earth_legacy.png",
-      "inherit": "Mod_Char_Male_Common",
+      "inherit": "Mod_Char_Male",
       "node": "resources_generated/gameplay/characters/earth-legacy_001/male/nodes/chara_male_earth-legacy_001.node"
+    },
+    "Mod_Char_Male_EarthLegacy_Silver": {
+      "icon": "resources_generated/gameplay/characters/earth_legacy_silver_001/male/icons/chara_male_earth_legacy_silver.png",
+      "inherit": "Mod_Char_Male_EarthLegacy",
+      "node": "resources_generated/gameplay/characters/earth_legacy_silver_001/male/nodes/chara_male_earth-legacy_silver_001.node"
     },
     "Mod_Char_Female_1_GunnerSeat": {
       "events": [

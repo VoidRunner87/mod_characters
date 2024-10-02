@@ -1,43 +1,46 @@
-Mod_Char_Female_1_GunnerSeat:
+Mod_Char:
   parent: Generic
-  displayName: Person F Common Gunner Seat
+---
+Mod_Char_Female:
+  parent: Mod_Char
+  displayName: Person F
 ---
 Mod_Char_Female_AlphaTeam:
-  parent: Generic
+  parent: Mod_Char_Female
   displayName: Person F Alpha Team
 ---
 Mod_Char_Female_Arkship:
-  parent: Generic
+  parent: Mod_Char_Female
   displayName: Person F Arkship
 ---
-Mod_Char_Female_Common:
-  parent: Generic
-  displayName: Person F Common
----
-Mod_Char_Female_EarthLegacy:
-  parent: Generic
-  displayName: Person F Earth Legacy
----
 Mod_Char_Female_Military:
-  parent: Generic
+  parent: Mod_Char_Female
   displayName: Person F Military
 ---
+Mod_Char_Female_EarthLegacy:
+  parent: Mod_Char_Female
+  displayName: Person F Earth Legacy
+---
+Mod_Char_Male:
+  parent: Mod_Char
+  displayName: Person M
+---
 Mod_Char_Male_AlphaTeam:
-  parent: Generic
+  parent: Mod_Char_Male
   displayName: Person M Alpha Team
 ---
 Mod_Char_Male_Arkship:
-  parent: Generic
+  parent: Mod_Char_Male
   displayName: Person M Arkship
 ---
-Mod_Char_Male_Common:
-  parent: Generic
-  displayName: Person M Common
+Mod_Char_Male_Military:
+  parent: Mod_Char_Male
+  displayName: Person M Military
 ---
 Mod_Char_Male_EarthLegacy:
-  parent: Generic
+  parent: Mod_Char_Male
   displayName: Person M Earth Legacy
 ---
-Mod_Char_Male_Military:
-  parent: Generic
-  displayName: Person M Military
+Mod_Char_Female_1_GunnerSeat:
+  parent: Mod_Char
+  displayName: Person F Seated on Gunner Seat
