@@ -9,7 +9,7 @@ The characters are Programming Boards and can have lua code added to them.
 
 EVERY Player has to download the mod to be able to see them
 
-* Grab a [release](../../releases) version and extract on your mydu game folder
+* Grab a [release](../../releases) version and extract on `<MYDU_CLIENT>/Game/data/resources_generated/mods`
 
 ## Install Server Side
 
