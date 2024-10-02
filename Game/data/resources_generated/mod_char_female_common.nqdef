@@ -1,0 +1,182 @@
+{
+  "elements": {
+    "Mod_Char_Female_Common": {
+      "events": [
+        {
+          "push": [
+            {
+              "action": "animation_play",
+              "name": "wave"
+            }
+          ]
+        },
+        {
+          "emote_end": []
+        }
+      ],
+      "animations": [
+        {
+          "animationPath": "resources_generated/gameplay/characters/common_001/female/anims/3rd/chara_female_3rd_001_idle.anim",
+          "loop": true,
+          "name": "idle_loop"
+        },
+        {
+          "animationPath": "resources_generated/gameplay/characters/common_001/female/anims/3rd/chara_female_3rd_001_wave.anim",
+          "name": "wave"
+        }
+      ],
+      "colMesh": "chara_female_1",
+      "collisions": [
+        {
+          "colMesh": "chara_female_1",
+          "name": "chara"
+        }
+      ],
+      "previewAnim": "idle_loop",
+      "previewCol": "chara",
+      "states": {
+        "idle": {
+          "start": [
+            {
+              "action": "animation_play",
+              "name": "idle_loop"
+            }
+          ]
+        },
+        "broken": {}
+      },
+      "icon": "resources_generated/gameplay/characters/default_001/female/icons/default_female.png",
+      "order": 0,
+      "node": "resources_generated/gameplay/characters/default_001/female/nodes/chara_female_001.node"
+    },
+    "Mod_Char_Male_Common": {
+      "events": [
+        {
+          "push": [
+            {
+              "action": "animation_play",
+              "name": "wave"
+            }
+          ]
+        },
+        {
+          "emote_end": []
+        }
+      ],
+      "animations": [
+        {
+          "animationPath": "resources_generated/gameplay/characters/common_001/male/anims/3rd/chara_male_3rd_001_idle.anim",
+          "loop": true,
+          "name": "idle_loop"
+        },
+        {
+          "animationPath": "resources_generated/gameplay/characters/common_001/male/anims/3rd/chara_male_3rd_001_wave.anim",
+          "name": "wave"
+        }
+      ],
+      "colMesh": "chara_male_1",
+      "collisions": [
+        {
+          "colMesh": "chara_male_1",
+          "name": "chara"
+        }
+      ],
+      "previewAnim": "idle_loop",
+      "previewCol": "chara",
+      "states": {
+        "idle": {
+          "start": [
+            {
+              "action": "animation_play",
+              "name": "idle_loop"
+            }
+          ]
+        },
+        "broken": {}
+      },
+      "icon": "resources_generated/gameplay/characters/default_001/male/icons/default_male.png",
+      "order": 0,
+      "node": "resources_generated/gameplay/characters/default_001/male/nodes/chara_male_001.node"
+    },
+    "Mod_Char_Female_AlphaTeam": {
+      "icon": "resources_generated/gameplay/characters/alpha-team_001/female/icons/chara_female-alpha-team.png",
+      "inherit": "Mod_Char_Female_Common",
+      "node": "resources_generated/gameplay/characters/alpha-team_001/female/nodes/chara_female_alpha-team_001.node"
+    },
+    "Mod_Char_Female_Arkship": {
+      "icon": "resources_generated/gameplay/characters/arkship_001/female/icons/chara_female_arkship_passenger.png",
+      "inherit": "Mod_Char_Female_Common",
+      "node": "resources_generated/gameplay/characters/arkship_001/female/nodes/chara_female_arkship_001.node"
+    },
+    "Mod_Char_Female_Military": {
+      "icon": "resources_generated/gameplay/characters/military_001/female/icons/chara_female-military.png",
+      "inherit": "Mod_Char_Female_Common",
+      "node": "resources_generated/gameplay/characters/military_001/female/nodes/chara_female_military_001.node"
+    },
+    "Mod_Char_Female_EarthLegacy": {
+      "icon": "resources_generated/gameplay/characters/earth-legacy_001/female/icons/chara_female_earth_legacy.png",
+      "inherit": "Mod_Char_Female_Common",
+      "node": "resources_generated/gameplay/characters/earth-legacy_001/female/nodes/chara_female_earth-legacy_001.node"
+    },
+    "Mod_Char_Male_AlphaTeam": {
+      "icon": "resources_generated/gameplay/characters/alpha-team_001/male/icons/chara_male-alpha-team.png",
+      "inherit": "Mod_Char_Male_Common",
+      "node": "resources_generated/gameplay/characters/alpha-team_001/male/nodes/chara_male_alpha-team_001.node"
+    },
+    "Mod_Char_Male_Arkship": {
+      "icon": "resources_generated/gameplay/characters/arkship_001/male/icons/chara_male_arkship_passenger.png",
+      "inherit": "Mod_Char_Male_Common",
+      "node": "resources_generated/gameplay/characters/arkship_001/male/nodes/chara_male_arkship_001.node"
+    },
+    "Mod_Char_Male_Military": {
+      "icon": "resources_generated/gameplay/characters/military_001/male/icons/chara_male-military.png",
+      "inherit": "Mod_Char_Male_Common",
+      "node": "resources_generated/gameplay/characters/military_001/male/nodes/chara_male_military_001.node"
+    },
+    "Mod_Char_Male_EarthLegacy": {
+      "icon": "resources_generated/gameplay/characters/earth-legacy_001/male/icons/chara_male_earth_legacy.png",
+      "inherit": "Mod_Char_Male_Common",
+      "node": "resources_generated/gameplay/characters/earth-legacy_001/male/nodes/chara_male_earth-legacy_001.node"
+    },
+    "Mod_Char_Female_1_GunnerSeat": {
+      "events": [
+        {
+          "push": []
+        },
+        {
+          "emote_end": []
+        }
+      ],
+      "animations": [
+        {
+          "animationPath": "resources_generated/gameplay/characters/common_001/female/anims/1st/chara_female_1st_001_commander_chair_idle.anim",
+          "loop": true,
+          "name": "seat_loop"
+        }
+      ],
+      "colMesh": "seat",
+      "collisions": [
+        {
+          "colMesh": "col_env_gunner-seat_001_s",
+          "name": "seat"
+        }
+      ],
+      "previewAnim": "seat_loop",
+      "previewCol": "seat",
+      "states": {
+        "idle": {
+          "start": [
+            {
+              "action": "animation_play",
+              "name": "seat_loop"
+            }
+          ]
+        },
+        "broken": {}
+      },
+      "icon": "resources_generated/gameplay/characters/default_001/female/icons/default_female.png",
+      "order": 0,
+      "node": "resources_generated/mod_char_female_1_gunnerseat.node"
+    }
+  }
+}

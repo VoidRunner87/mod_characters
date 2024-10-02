@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.3">
+	<materials>
+		<library>resources_generated/gameplay/characters/default_001/materials/chara_jetpack_001.mat</library>
+		<library>resources_generated/gameplay/characters/default_001/female/materials/chara_female_001.mat</library>
+		<library>resources_generated/elements/seats/gunner-seat_001_m/env_gunner-seat_001_m.mat</library>
+		<library>resources_generated/gameplay/tools/contactsurface/contact_surface.mat</library>
+	</materials>
+	<node type="ObjectMeshSkinned" id="583495639" name="chara_female_1">
+		<mesh_name>resources_generated/gameplay/characters/default_001/female/meshes/chara_female_001.mesh</mesh_name>
+		<surface name="face_lod0" max_visible_distance="12" material="chara_female_001_face" property="surface_base"/>
+		<surface name="head_lod0" max_visible_distance="12" material="chara_female_001_helmet" property="surface_base"/>
+		<surface name="visor_lod0" max_visible_distance="12" material="chara_female_001_helmet" property="surface_base"/>
+		<surface name="visor_glass_lod0" max_visible_distance="12" material="chara_female_001_glass" property="surface_base"/>
+		<surface name="body_lod0" max_visible_distance="12" material="chara_female_001_body" property="surface_base"/>
+		<surface name="jetpack_lod0" max_visible_distance="12" material="chara_jetpack_001" property="surface_base"/>
+		<surface name="jetpack_decals_emissive_lod0" max_visible_distance="12" material="chara_jetpack_001_decals_emissive" property="surface_base"/>
+		<surface name="face_lod1" min_visible_distance="12" max_visible_distance="24" material="chara_female_001_face" property="surface_base"/>
+		<surface name="head_lod1" min_visible_distance="12" max_visible_distance="24" material="chara_female_001_helmet" property="surface_base"/>
+		<surface name="visor_lod1" min_visible_distance="12" max_visible_distance="24" material="chara_female_001_helmet" property="surface_base"/>
+		<surface name="visor_glass_lod1" min_visible_distance="12" max_visible_distance="24" material="chara_female_001_glass" property="surface_base"/>
+		<surface name="body_lod1" min_visible_distance="12" max_visible_distance="24" material="chara_female_001_body" property="surface_base"/>
+		<surface name="jetpack_lod1" min_visible_distance="12" max_visible_distance="24" material="chara_jetpack_001" property="surface_base"/>
+		<surface name="jetpack_decals_emissive_lod1" min_visible_distance="12" max_visible_distance="24" material="chara_jetpack_001_decals_emissive" property="surface_base"/>
+		<surface name="face_lod2" min_visible_distance="24" max_visible_distance="48" material="chara_female_001_face" property="surface_base"/>
+		<surface name="head_lod2" min_visible_distance="24" max_visible_distance="48" material="chara_female_001_helmet" property="surface_base"/>
+		<surface name="visor_lod2" min_visible_distance="24" max_visible_distance="48" material="chara_female_001_helmet" property="surface_base"/>
+		<surface name="visor_glass_lod2" min_visible_distance="24" max_visible_distance="48" material="chara_female_001_glass" property="surface_base"/>
+		<surface name="body_lod2" min_visible_distance="24" max_visible_distance="48" material="chara_female_001_body" property="surface_base"/>
+		<surface name="jetpack_lod2" min_visible_distance="24" max_visible_distance="48" material="chara_jetpack_001" property="surface_base"/>
+		<surface name="face_lod3" min_visible_distance="48" max_visible_distance="96" material="chara_female_001_face" property="surface_base"/>
+		<surface name="head_lod3" min_visible_distance="48" max_visible_distance="96" material="chara_female_001_helmet" property="surface_base"/>
+		<surface name="visor_lod3" min_visible_distance="48" max_visible_distance="96" material="chara_female_001_helmet" property="surface_base"/>
+		<surface name="visor_glass_lod3" min_visible_distance="48" max_visible_distance="96" material="chara_female_001_glass" property="surface_base"/>
+		<surface name="body_lod3" min_visible_distance="48" max_visible_distance="96" material="chara_female_001_body" property="surface_base"/>
+		<surface name="jetpack_lod3" min_visible_distance="48" max_visible_distance="96" material="chara_jetpack_001" property="surface_base"/>
+		<surface name="face_lod4" min_visible_distance="96" max_visible_distance="192" material="chara_female_001_face" property="surface_base"/>
+		<surface name="head_lod4" min_visible_distance="96" max_visible_distance="192" material="chara_female_001_helmet" property="surface_base"/>
+		<surface name="visor_lod4" min_visible_distance="96" max_visible_distance="192" material="chara_female_001_helmet" property="surface_base"/>
+		<surface name="visor_glass_lod4" min_visible_distance="96" max_visible_distance="192" material="chara_female_001_glass" property="surface_base"/>
+		<surface name="body_lod4" min_visible_distance="96" max_visible_distance="192" material="chara_female_001_body" property="surface_base"/>
+		<surface name="jetpack_lod4" min_visible_distance="96" max_visible_distance="192" material="chara_jetpack_001" property="surface_base"/>
+		<transform>1.00000005961 0 0 0.0 0 1.00000005961 0 0.0 0 0 1.00000005961 0.0 3.5527136788e-015 0 -5.39384432628e-008 1.0</transform>
+		<node type="WorldTransformBone" id="846311778" name="CameraBone" collider="0">
+			<radius>0.01</radius>
+			<bone>bobble_M</bone>
+			<transform>5.96046447754e-008 0 0.999999940395 0.0 -0 1 0 0.0 -0.999999940395 -0 5.96046447754e-008 0.0 -1.38428201702e-015 0.0930886045098 1.69455480576 1.0</transform>
+			<node type="NodeDummy" id="784401563" name="CameraSocket" collider="0">
+				<transform>5.96046447754e-008 0 -0.999999940395 0.0 0 1 0 0.0 0.999999940395 0 5.96046447754e-008 0.0 0 0 0 1.0</transform>
+			</node>
+		</node>
+		<node type="WorldTransformBone" id="325850122" name="LeftHandBone" collider="0">
+			<bone>Magnet_L</bone>
+			<transform>0.440554082394 -0.368998944759 0.818383514881 0.0 -0.470503568649 -0.871289849281 -0.139571279287 0.0 0.764551222324 -0.323563694954 -0.557465672493 0.0 -0.463297426701 0.0942896232009 1.08572936058 1.0</transform>
+			<node type="NodeDummy" id="1735593890" name="LeftHandFXSocket" collider="0">
+				<transform>-3.67297536275e-008 -3.01301114197e-008 0.999999846702 0.0 0.0155518905238 0.999879010051 2.49424274956e-007 0.0 -0.999879091847 0.0155517699226 1.92046116398e-007 0.0 -9.99200722163e-015 4.77395900589e-015 -2.6645352591e-015 1.0</transform>
+			</node>
+			<node type="NodeReference" id="1479372000" enabled="0" collider="0" name="LeftHandTool">
+				<reference>resources_generated/elements/tools-avatar/tool_001/nodes/env_tool_001.node</reference>
+				<transform>0.0119917446804 -0.0447162768617 0.998927680354 0.0 -0.985766974724 0.167005424598 0.0193097341391 0.0 -0.167689863971 -0.984941508266 -0.0420772265611 0.0 -0.127417590383 0.0711133979894 0.0042405855951 1.0</transform>
+			</node>
+		</node>
+		<node type="NodeDummy" id="1341293126" name="TorchNode" collider="0">
+			<transform>1.0000000596 0 0 0.0 0 1.0000000596 0 0.0 0 0 1 0.0 9.95406716149 -11.0490732893 0 1.0</transform>
+			<node type="LightProj" id="478472254" name="torch" collider="0">
+				<penumbra>1.8</penumbra>
+				<attenuation_distance>100</attenuation_distance>
+				<shape>2 1 0.2</shape>
+				<shape_type>-1</shape_type>
+				<fov>120</fov>
+				<znear>0.01</znear>
+				<texture>resources_generated/gameplay/characters/common_001/textures/chara_001_torchligh_c.png</texture>
+				<color>1 0.9 0.8 1</color>
+				<intensity>50</intensity>
+				<attenuation_power>5</attenuation_power>
+				<shadow>0</shadow>
+				<transform>0.999999821187 1.16897171134e-020 -6.72133918598e-020 0.0 -7.96740413501e-021 7.15214486133e-007 0.999942004681 0.0 1.70706753154e-020 -0.999941945079 7.15214584832e-007 0.0 -9.7540665801 11.279072617 1.62 1.0</transform>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="922743281" name="env_gunner-seat_001_s">
+			<mesh_name>resources_generated/elements/seats/gunner-seat_001_s/meshes/env_gunner-seat_001_s.mesh</mesh_name>
+			<surface name="env_gunner-seat_001_s_lod0" max_visible_distance="10" material="gunner-seat_001_all" property="surface_base"/>
+			<surface name="env_gunner-seat_001_s_lod1" min_visible_distance="10" material="gunner-seat_001_all" property="surface_base"/>
+			<transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -0.208 0.023 1</transform>
+			<node type="NodeDummy" id="197225252" name="character_anchor">
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 -0.208 0.023 1.0</transform>
+			</node>
+			<node type="NodeDummy" id="747090886" name="contact_surfaces3">
+				<transform>1 0 0 0.0 0 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+				<node type="NodeReference" id="985913074" name="contact1">
+					<reference>resources_generated/gameplay/tools/contactsurface/nodes/contact_surface_base_03.node</reference>
+					<transform>1 0 0 0.0 0 -1 -8.74227765735e-008 0.0 0 8.74227765735e-008 -1 0.0 -0.002 0.137 -0.777 1.0</transform>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="450550114" enabled="0" collider="0" name="col_mesh">
+				<mesh_name>resources_generated/elements/seats/gunner-seat_001_s/meshes/env_gunner-seat_001_s_col.mesh</mesh_name>
+				<surface name="env_gunner-seat_001_s_Collisions" material="cm_01" property="surface_base"/>
+				<transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -0.208 0.023 1</transform>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="922743282" name="col_env_gunner-seat_001_s">
+			<mesh_name>resources_generated/elements/seats/gunner-seat_001_s/meshes/env_gunner-seat_001_s.mesh</mesh_name>
+			<surface name="env_gunner-seat_001_s_lod0" max_visible_distance="10" material="gunner-seat_001_all" property="surface_base"/>
+			<surface name="env_gunner-seat_001_s_lod1" min_visible_distance="10" material="gunner-seat_001_all" property="surface_base"/>
+			<transform>1 0 0 0 0 1 0 0 0 0 1 0 0 -0.208 0.023 1</transform>
+		</node>
+	</node>
+</nodes>
