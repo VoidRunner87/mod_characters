@@ -6,4 +6,4 @@ Characters can be added to constructs as elements.
 
 ## Install
 
-* Grab a release version and extract on your mydu game folder
+* Grab a [release](/VoidRunner87/mod_characters/releases) version and extract on your mydu game folder
