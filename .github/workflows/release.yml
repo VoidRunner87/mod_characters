@@ -25,9 +25,9 @@ jobs:
           VERSION=$(cat version.txt)
           echo "VERSION=$VERSION" >> $GITHUB_ENV
 
-      - name: Zip Game folder
+      - name: Zip mods folder contents
         run: |
-          zip -r "v${{ env.VERSION }}.zip" Game
+          zip -r "v${{ env.VERSION }}.zip" mods/*
 
       - name: Create GitHub release
         id: create_release
