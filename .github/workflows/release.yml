@@ -27,7 +27,7 @@ jobs:
 
       - name: Zip mods folder contents
         run: |
-          zip -r "v${{ env.VERSION }}.zip" mods/*
+          cd mods && zip -r "v${{ env.VERSION }}.zip" *
 
       - name: Create GitHub release
         id: create_release
