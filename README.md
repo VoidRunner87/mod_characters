@@ -6,7 +6,7 @@ Characters can be added to constructs as elements.
 
 ## Install Client Side
 
-EVERY Player has to download the mod
+EVERY Player has to download the mod to be able to see them
 
 * Grab a [release](../../releases) version and extract on your mydu game folder
 
