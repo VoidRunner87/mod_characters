@@ -25,6 +25,12 @@ jobs:
           VERSION=$(cat version.txt)
           echo "VERSION=$VERSION" >> $GITHUB_ENV
 
+      - name: Update version in mod.json
+        run: |
+          VERSION=${{ env.VERSION }}
+          # Update version in mod.json inside the mods folder
+          jq ".version = \"$VERSION\"" mods/mod.json > mods/tmp.json && mv mods/tmp.json mods/mod.json
+
       - name: Zip mods folder contents
         run: |
           cd mods && zip -r "v${{ env.VERSION }}.zip" *
