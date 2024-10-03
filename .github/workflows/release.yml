@@ -10,6 +10,7 @@ on:
     paths-ignore:
       - '**/*.md'
       - '.github/workflows/**' 
+  workflow_dispatch:
 
 jobs:
   create-release:
