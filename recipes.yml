@@ -1,4 +1,19 @@
 ---
+id: 1297444738
+time: 1536
+nanocraftable: false
+in:
+- fixation_1: 1
+- fixation_2: 1
+- CuAgProduct: 100
+- fixation_3: 2
+- RedGoldProduct: 100
+- TiNbProduct: 100
+out:
+- processor_ai_4: 1
+industries:
+- IndustryElectronics4
+---
 id: 1549896462
 time: 10
 nanocraftable: false
