@@ -3,10 +3,8 @@ id: 1549896462
 time: 10
 nanocraftable: false
 in:
-- component_1: 1
-- processor_1: 1
-- controlsystem_1_xs: 1
-- casing_1_xs: 1
+- component_1: 100
+- processor_4: 32
 - CarbonPure: 20
 - HydrogenPure: 10
 - OxygenPure: 70
@@ -22,10 +20,8 @@ id: 1549896463
 time: 10
 nanocraftable: false
 in:
-- component_1: 1
-- processor_1: 1
-- controlsystem_1_xs: 1
-- casing_1_xs: 1
+- component_1: 100
+- processor_4: 32
 - CarbonPure: 20
 - HydrogenPure: 10
 - OxygenPure: 70
@@ -43,6 +39,7 @@ nanocraftable: false
 in:
 - component_3: 100
 - processor_4: 10
+- processor_ai_4: 32
 - motherboard_4_m: 10
 - CarbonPure: 20
 - HydrogenPure: 10
@@ -60,6 +57,7 @@ nanocraftable: false
 in:
 - component_3: 100
 - processor_4: 10
+- processor_ai_4: 32
 - motherboard_4_m: 10
 - CarbonPure: 20
 - HydrogenPure: 10
@@ -77,6 +75,7 @@ nanocraftable: false
 in:
 - component_3: 100
 - processor_4: 10
+- processor_ai_4: 32
 - motherboard_4_m: 10
 - CarbonPure: 20
 - HydrogenPure: 10
@@ -94,6 +93,7 @@ nanocraftable: false
 in:
 - component_3: 100
 - processor_4: 10
+- processor_ai_4: 32
 - motherboard_4_m: 10
 - CarbonPure: 20
 - HydrogenPure: 10
@@ -111,6 +111,7 @@ nanocraftable: false
 in:
 - component_3: 100
 - processor_4: 10
+- processor_ai_4: 32
 - motherboard_4_m: 10
 - CarbonPure: 20
 - HydrogenPure: 10
@@ -128,6 +129,7 @@ nanocraftable: false
 in:
 - component_3: 100
 - processor_4: 10
+- processor_ai_4: 32
 - motherboard_4_m: 10
 - CarbonPure: 20
 - HydrogenPure: 10
@@ -145,6 +147,7 @@ nanocraftable: false
 in:
 - component_3: 100
 - processor_4: 10
+- processor_ai_4: 32
 - motherboard_4_m: 10
 - CarbonPure: 20
 - HydrogenPure: 10
@@ -162,6 +165,7 @@ nanocraftable: false
 in:
 - component_3: 100
 - processor_4: 10
+- processor_ai_4: 32
 - motherboard_4_m: 10
 - CarbonPure: 20
 - HydrogenPure: 10
