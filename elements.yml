@@ -44,3 +44,13 @@ Mod_Char_Male_EarthLegacy:
 Mod_Char_Female_1_GunnerSeat:
   parent: Mod_Char
   displayName: Person F Seated on Gunner Seat
+
+---
+processor_ai_4:
+  parent: processorPart
+  assetAlias: processor_5
+  displayName: Rare Artificial Intelligence Processor
+  unitVolume: 5.00
+  unitMass: 21.47
+  level: 4
+  hidden: true
