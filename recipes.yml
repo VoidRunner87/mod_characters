@@ -1,0 +1,190 @@
+---
+id: 1549896461
+time: 10
+nanocraftable: false
+in:
+- component_1: 1
+- processor_1: 1
+- controlsystem_1_xs: 1
+- casing_1_xs: 1
+- CarbonPure: 20
+- HydrogenPure: 10
+- OxygenPure: 70
+out:
+- Mod_Char_Female: 1
+industries:
+- IndustryAssemblyS
+- IndustryAssemblyS2
+- IndustryAssemblyS3
+- IndustryAssemblyS4
+---
+id: 1549896461
+time: 10
+nanocraftable: false
+in:
+- component_1: 1
+- processor_1: 1
+- controlsystem_1_xs: 1
+- casing_1_xs: 1
+- CarbonPure: 20
+- HydrogenPure: 10
+- OxygenPure: 70
+out:
+- Mod_Char_Male: 1
+industries:
+- IndustryAssemblyS
+- IndustryAssemblyS2
+- IndustryAssemblyS3
+- IndustryAssemblyS4
+---
+id: 1549896461
+time: 10
+nanocraftable: false
+in:
+- component_1: 1
+- processor_1: 1
+- controlsystem_1_xs: 1
+- casing_1_xs: 1
+- CarbonPure: 20
+- HydrogenPure: 10
+- OxygenPure: 70
+out:
+- Mod_Char_Female_AlphaTeam: 1
+industries:
+- IndustryAssemblyS
+- IndustryAssemblyS2
+- IndustryAssemblyS3
+- IndustryAssemblyS4
+---
+id: 1549896461
+time: 10
+nanocraftable: false
+in:
+- component_1: 1
+- processor_1: 1
+- controlsystem_1_xs: 1
+- casing_1_xs: 1
+- CarbonPure: 20
+- HydrogenPure: 10
+- OxygenPure: 70
+out:
+- Mod_Char_Male_AlphaTeam: 1
+industries:
+- IndustryAssemblyS
+- IndustryAssemblyS2
+- IndustryAssemblyS3
+- IndustryAssemblyS4
+---
+id: 1549896461
+time: 10
+nanocraftable: false
+in:
+- component_1: 1
+- processor_1: 1
+- controlsystem_1_xs: 1
+- casing_1_xs: 1
+- CarbonPure: 20
+- HydrogenPure: 10
+- OxygenPure: 70
+out:
+- Mod_Char_Female_Arkship: 1
+industries:
+- IndustryAssemblyS
+- IndustryAssemblyS2
+- IndustryAssemblyS3
+- IndustryAssemblyS4
+---
+id: 1549896461
+time: 10
+nanocraftable: false
+in:
+- component_1: 1
+- processor_1: 1
+- controlsystem_1_xs: 1
+- casing_1_xs: 1
+- CarbonPure: 20
+- HydrogenPure: 10
+- OxygenPure: 70
+out:
+- Mod_Char_Male_Arkship: 1
+industries:
+- IndustryAssemblyS
+- IndustryAssemblyS2
+- IndustryAssemblyS3
+- IndustryAssemblyS4
+---
+id: 1549896461
+time: 10
+nanocraftable: false
+in:
+- component_1: 1
+- processor_1: 1
+- controlsystem_1_xs: 1
+- casing_1_xs: 1
+- CarbonPure: 20
+- HydrogenPure: 10
+- OxygenPure: 70
+out:
+- Mod_Char_Female_Military: 1
+industries:
+- IndustryAssemblyS
+- IndustryAssemblyS2
+- IndustryAssemblyS3
+- IndustryAssemblyS4
+---
+id: 1549896461
+time: 10
+nanocraftable: false
+in:
+- component_1: 1
+- processor_1: 1
+- controlsystem_1_xs: 1
+- casing_1_xs: 1
+- CarbonPure: 20
+- HydrogenPure: 10
+- OxygenPure: 70
+out:
+- Mod_Char_Male_Military: 1
+industries:
+- IndustryAssemblyS
+- IndustryAssemblyS2
+- IndustryAssemblyS3
+- IndustryAssemblyS4
+---
+id: 1549896461
+time: 10
+nanocraftable: false
+in:
+- component_1: 1
+- processor_1: 1
+- controlsystem_1_xs: 1
+- casing_1_xs: 1
+- CarbonPure: 20
+- HydrogenPure: 10
+- OxygenPure: 70
+out:
+- Mod_Char_Female_EarthLegacy: 1
+industries:
+- IndustryAssemblyS
+- IndustryAssemblyS2
+- IndustryAssemblyS3
+- IndustryAssemblyS4
+---
+id: 1549896461
+time: 10
+nanocraftable: false
+in:
+- component_1: 1
+- processor_1: 1
+- controlsystem_1_xs: 1
+- casing_1_xs: 1
+- CarbonPure: 20
+- HydrogenPure: 10
+- OxygenPure: 70
+out:
+- Mod_Char_Male_EarthLegacy: 1
+industries:
+- IndustryAssemblyS
+- IndustryAssemblyS2
+- IndustryAssemblyS3
+- IndustryAssemblyS4
