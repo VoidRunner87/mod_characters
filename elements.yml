@@ -1,5 +1,6 @@
 Mod_Char:
   parent: Generic
+  displayName: Characters
 ---
 Mod_Char_Female:
   parent: Mod_Char
